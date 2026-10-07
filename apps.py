@@ -5,7 +5,7 @@ import re
 from datetime import datetime
 import io
 
-# --- UI Configuration ---
+# --- UI Configuration --
 st.set_page_config(page_title="Branch Loan Data Cleaner", layout="wide")
 st.title("🏦 Smart Branch Data Cleaner")
 st.markdown("Upload the branch register. The system will auto-format fields and organize the output into Clean, Review, and Full Data tabs.")
